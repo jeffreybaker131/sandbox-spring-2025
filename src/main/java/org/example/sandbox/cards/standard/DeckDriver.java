@@ -1,8 +1,5 @@
 package org.example.sandbox.cards.standard;
 
-/**
- * Driver class to demonstrate the use of the deck.
- */
 public class DeckDriver {
 
     public static void main(String[] args) {
@@ -37,7 +34,9 @@ public class DeckDriver {
     }
 
     private static void displayDeck(Deck cards) {
+
         System.out.println(cards);
+
     }
 
 }
