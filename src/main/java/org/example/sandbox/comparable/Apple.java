@@ -7,6 +7,7 @@ public class Apple extends Fruit implements Comparable<Fruit> {
     public Apple(String name, String color, double weight, String variety) {
 
         super(name, color, weight);
+
         this.variety = variety;
 
     }
