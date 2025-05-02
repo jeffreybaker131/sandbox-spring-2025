@@ -64,7 +64,6 @@ public class Person implements Comparable<Person> {
         System.out.println();
 
         Collections.sort(people);
-
         people.forEach(System.out::println);
 
     }
