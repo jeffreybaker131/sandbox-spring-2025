@@ -23,12 +23,16 @@ public class Fruit implements Comparable<Fruit> {
 
         int nameComparison = this.name.compareTo(other.name);
         if (nameComparison != 0) {
+
             return nameComparison;
+
         }
 
         int colorComparison = this.color.compareTo(other.color);
         if (colorComparison != 0) {
+
             return colorComparison;
+
         }
 
         return compare(this.weight, other.weight);
